@@ -1,0 +1,655 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    height: auto;
+}
+
+
+.navbar {
+    height: 10vh;
+    width: 100%;
+    background-color:black;
+    position: fixed;
+    z-index: 1;
+    
+}
+
+.container-one {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; 
+
+}
+
+ 
+ .fa-solid{
+    font-size: 1.5rem;
+    color: #ffff;
+
+}
+
+button img{
+    height: 2rem;
+    width: 2rem;
+}
+
+.delivery button {
+    width: 11vw;
+    height: 6vh;
+    text-align: center;
+    border-radius: .35rem;
+    border: 2px solid #EA002A;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff;
+    background-color:#1C1816;
+}
+
+.pickup button {
+    width: 9vw;
+    height: 5vh;
+    border-radius: 8px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff;
+    background-color:#1C1816;
+    border-color: transparent;
+}
+
+.container-two {
+    width: 50%;
+    padding-right: 40px;
+    display: flex;
+    justify-content: right;
+    gap: 1rem;
+}
+
+.login button {
+    height: 5vh;
+    width: 5vw;
+    color: #ffff;
+    border-color: transparent;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: 600; 
+    background-color: #EA002A;
+    text-align: center;
+    margin-top: 1vh;
+}
+
+/* REORDER */
+.reorder {
+display: flex;
+justify-content: center;
+margin-top: 1rem;
+
+}
+
+.reorder button{
+    background-color: #EA002A;
+    color: #ffff;
+    width: 44vw;
+    height: 5.5vh;
+    border-style: none;
+    border-radius: 4px;
+}
+
+/* EXPLORE */
+
+.explore {
+    margin-top: 2rem;
+    padding: 0 8vw;
+}
+.explore p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    font-weight: 600;
+    color: #ffff;
+    text-decoration: underline;
+    text-decoration-color: #EA002A;
+    text-decoration-thickness: 5px;
+}
+
+/*  Card 1 Circle  */
+
+.cards {
+    margin-top: 6rem;
+    padding: 0 8vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.everyday {
+    width: 12vw;
+    height: 28vh;
+    background-color: #1C1816;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    
+}
+
+ .everyday img {
+    height: 18vh;
+    width: 12vw;
+    padding-top: 1vh;
+
+ }
+
+ .everyday p {
+    color: #ffff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color: #EA002A;
+    text-decoration-thickness: 3px;
+
+ }
+ .everyday:hover{
+    transform: scale(1,1.1);
+ }
+
+ .ala-carte {
+    width: 12vw;
+    height: 28vh;
+    background-color: #1C1816;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    
+}
+
+ .ala-carte img {
+    height: 18vh;
+    width: 12vw;
+    padding-top: 1vh;
+
+ }
+
+ .ala-carte p {
+    color: #ffff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color: #EA002A;
+    text-decoration-thickness: 3px;
+
+ }
+
+ .ala-carte:hover{
+    transform: scale(1,1.1);
+ }
+    
+ .promotion {
+    width: 12vw;
+    height: 28vh;
+    background-color: #1C1816;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    
+}
+
+ .promotion img {
+    height: 18vh;
+    width: 12vw;
+    padding-top: 1vh;
+
+ }
+
+ .promotion p {
+    color: #ffff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color: #EA002A;
+    text-decoration-thickness: 3px;
+
+ }
+
+ .promotion:hover{
+    transform: scale(1,1.1);
+ }
+
+ 
+     
+ .signature {
+    width: 12vw;
+    height: 28vh;
+    background-color: #1C1816;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    
+}
+
+
+
+ .signature img {
+    height: 18vh;
+    width: 12vw;
+    padding-top: 1vh;
+
+ }
+
+ .signature p {
+    color: #ffff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color: #EA002A;
+    text-decoration-thickness: 3px;
+
+ }
+
+ .signature:hover{
+    transform: scale(1,1.1);
+ }
+
+ 
+     
+ .sharing {
+    width: 12vw;
+    height: 28vh;
+    background-color: #1C1816;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    
+}
+
+ .sharing img {
+    height: 18vh;
+    width: 12vw;
+    padding-top: 1vh;
+
+ }
+
+ .sharing p {
+    color: #ffff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color: #EA002A;
+    text-decoration-thickness: 3px;
+
+ }
+
+ .sharing:hover{
+    transform: scale(1,1.3);
+ }
+
+ /* BEST SELLERS */
+
+ .best {
+    margin-top: 2rem;
+    padding: 0 8vw;
+}
+.best p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    font-weight: 600;
+    color: #ffff;
+    text-decoration: underline;
+    text-decoration-color: #EA002A;
+    text-decoration-thickness: 5px;
+}
+
+/* CARDS 2 */
+.cards-two {
+    margin-top: 5rem;
+    padding: 0 8vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.kurnch-B{
+    height:65vh;
+    width: 24vw;
+    background-color:#1C1816;
+    border-radius: 3px;
+    
+}
+
+.horizental {
+    display: flex;
+    justify-content: center;
+    gap: 0.5vw;
+    
+}
+
+#i {
+    height: 4vh;
+    width: 1.3vw;
+    background-color: #EA002A;
+
+}
+
+#ii {
+    height: 4vh;
+    width: 1.3vw;
+    background-color: #EA002A;
+
+}
+
+#iii {
+    height: 4vh;
+    width: 1.3vw;
+    background-color:#EA002A;
+
+}
+
+.kurnch-B p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    font-weight: 600;
+    color:#ffff;
+    margin-top: 2vh;
+    padding: 0 2vw;
+}
+
+.price {
+    display: flex;
+    justify-content: right;
+}
+
+.inside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside img{
+    height: 39vh;
+    width: 24vw; 
+
+}
+
+
+.top{
+    margin-top: 2rem;
+    padding: 0 8vw;
+}
+.top p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    font-weight: 600;
+    color: #ffff;
+    text-decoration: underline;
+    text-decoration-color: #EA002A;
+    text-decoration-thickness: 5px;
+}
+
+/* CARD 3 */
+.card3 {
+     margin-top: 2rem; 
+     display: flex;
+     justify-content: space-evenly;
+    
+} 
+
+ .box {
+    height:65vh;
+    width: 18vw;
+    background-color:#1C1816;
+    border-radius: 10px;
+    transition: 2.7s;
+} 
+
+.box a {
+    text-decoration: none;
+    transition: 2.7s;
+}
+.box a:hover{
+    transform: scale(1.5);
+}
+
+.box a img:hover {
+    transition: 1s;
+
+}
+
+.heart {
+    display: flex;
+    justify-content: right;
+}
+
+.fa-regular {
+    color: #EA002A;
+    padding: 0 1vw;
+    font-size: x-large;
+
+}
+
+.outside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.outside img {
+    height: 32vh;
+    width: 18vw; 
+    
+}
+
+.intro p {
+    font-family:Arial, Helvetica, sans-serif ;
+
+}
+
+.intro {
+    padding: 1vh 1vh;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: #ffff;
+}
+
+.intro-o {
+    padding: 0.5vh 0.5vh;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: #ffff;
+
+
+}
+
+.intro-p {
+    padding: 1vh 1vh;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: #ffff;
+    
+}
+/* 4CARD COMBINE */
+
+
+.card-four {
+    margin-top: 6rem;
+    padding: 0 8vw;
+    display: flex;
+    gap: 10px;
+    
+} 
+
+.part-one {
+    height:45vh;
+    width: 40vw;
+    background-color: #EA002A;
+    border-radius: 7px;
+    
+}
+.part-one img {
+    height:45vh;
+    width: 40vw;
+    border-radius: 7px;
+}
+
+
+
+.part-two {
+    height:45vh;
+    width: 40vw;
+    background-color: #EA002A;
+    border-radius: 7px;
+
+}
+
+.part-two img {
+    height:45vh;
+    width: 40vw;
+    border-radius: 7px;
+
+}
+
+/* 4O */
+
+.card-fouro {
+    margin-top: 1rem;
+    padding: 0 8vw;
+    display: flex;
+    gap: 10px; 
+    
+} 
+
+.part-three {
+    height:45vh;
+    width: 40vw;
+    background-color: #EA002A;
+    border-radius: 7px;
+    
+}
+
+.part-three img {
+    height:45vh;
+    width: 40vw;
+    border-radius: 7px;
+
+}
+
+
+.part-four {
+    height:45vh;
+    width: 40vw;
+    background-color: #EA002A;
+    border-radius: 7px;
+}
+
+.part-four img {
+    height:45vh;
+    width: 40vw;
+    border-radius: 7px;
+
+}
+
+/* Footer */ 
+.footer {
+    width: 100%;
+    height: 50vh;
+    margin-top: 6rem;
+    background-color: #1C1816;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    padding-top: 6vh;
+    gap: 10vh;
+}
+
+.section-one {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: right;
+    
+}
+
+
+.section-two {
+    width: 50%;
+    height: auto;
+    
+}
+
+.chama {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.main-two a {
+    text-decoration: none;
+    
+}
+
+.main-two a:hover {
+    color: #EA002A;
+    
+}
+
+.ciao {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: #ffff;
+}
+
+.main3 {
+    color: #EA002A;
+    margin:5vw 3vw ;
+    display: flex;
+}
+.rights {
+    width: 50%;
+    color: #ffff;
+    font-weight: 700;
+    
+}
+
+.powerd {
+    width: 50%;
+    padding-left: 28%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 600;
+
+    
+}
+
+a {
+    color :#ffff;
+    font-weight: 1;
+}
+
+/* Scroll bar */
+::-webkit-scrollbar{
+    background: #1C1816;
+}
